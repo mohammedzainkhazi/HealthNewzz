@@ -1,7 +1,7 @@
 import axios from 'axios';  
 
 const url = "https://data.covid19india.org/data.json"
-const key = "4a8f4691732a4660bbb186ebea75a858"
+const key = "<Your KEY>" 
 export const getArticles = () => {
     const resp = axios.get(
       `https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=${key}`    
