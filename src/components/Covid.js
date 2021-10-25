@@ -13,7 +13,7 @@ const Covid = () => {
         getCases()
     })
     return (
-        <div style={{marginTop:'20px'}}>
+        <div style={{marginTop:'21px'}}>
                 <Card style={{backgroundColor:'blue',color:'white'}}>
                     <CardContent>
                         <Typography variant='h4' style={{textColor:'ghostwhite'}}>
